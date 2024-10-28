@@ -1,0 +1,35 @@
+body, div, p {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.bigger {
+    font-size: 35px;
+}
+.big {
+    font-size: 20px;
+}
+.medium {
+    font-size: 18px;
+}
+.normal {
+    font-size: 16px;
+}
+.small-2 {
+    font-size: 15px;
+}
+
+.small {
+    font-size: 13px;
+}
+.bold {
+    font-weight: 600;
+}
+.no-margin {
+    margin: 0px;
+}
+.no-margin-2 {
+    margin: 4px 0px;
+}
+.no-margin-3 {
+    margin: 8px 0px;
+}

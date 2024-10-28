@@ -1,0 +1,14 @@
+.padding {
+    padding: 16px 16px;
+}
+a {
+    text-decoration: none;
+}
+.hr {
+    margin: 8px 0px;
+    border-color: rgba(14, 26, 143);
+}
+.card {
+    box-shadow: 1px 1px 5px rgb(228, 228, 228);
+}
+

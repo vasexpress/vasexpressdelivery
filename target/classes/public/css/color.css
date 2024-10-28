@@ -1,0 +1,18 @@
+.background-primary {
+    background-color: #001996;
+    color: white;
+}
+.background-primary-light {
+    background-color: #7884c9;
+    color: white;
+}
+.text-primary {
+    color: rgb(14, 26, 143);
+}
+.text-grey {
+    color: rgb(241, 241, 241);
+}
+.text-grey-2 {
+    color: rgb(48, 48, 48);
+}
+
