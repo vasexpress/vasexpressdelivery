@@ -1,0 +1,13 @@
+logistics/giaglobal/app/owner/OwnerController.class
+logistics/giaglobal/app/shipmenttrack/ShipmentTrackRepository.class
+logistics/giaglobal/app/App.class
+logistics/giaglobal/app/shipmenttrack/ShipmentTrackController.class
+logistics/giaglobal/app/owner/OwnerService.class
+logistics/giaglobal/app/shipment/ShipmentService.class
+logistics/giaglobal/app/owner/OwnerRepository.class
+logistics/giaglobal/app/shipment/Shipment.class
+logistics/giaglobal/app/shipmenttrack/ShipmentTrack.class
+logistics/giaglobal/app/shipment/ShipmentRepository.class
+logistics/giaglobal/app/owner/Owner.class
+logistics/giaglobal/app/shipment/ShipmentController.class
+logistics/giaglobal/app/shipmenttrack/ShipmentTrackService.class

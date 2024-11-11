@@ -37,7 +37,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <!-- TITLE -->
-    <title> Aero Xpress Shipment - Logistic Delivery Service </title>
+    <title> VAS Express delivery - Logistic Delivery Service </title>
 </head>
 
 <body>
@@ -49,7 +49,7 @@
         </div>
     </div>
     <!-- End Preloader Area -->
-    </div>
+    
     <!-- Start Header Area -->
     <header class="header-area">
         <!-- Start Top Header Area -->
@@ -229,7 +229,7 @@
 						<div class="single-address">
 							<i class='bx bx-phone-call'></i>
 							<h3>Contact</h3>
-							<span>+15017322456</a></span> </br>
+							<span>+15017322456</span> 
 							
 							<p>support@aeroxpress.online</p>
 														
@@ -239,9 +239,9 @@
 						<div class="single-address">
 							<i class='bx bx-location-plus'></i>
 							<h3>Location</h3>
-							<span><strong>Find where we are</strong></span> </br>
+							<span><strong>Find where we are</strong></span> 
 							
-										<span>1811 Riverview Dr, San Bernardino, CA 92408, United States</span> </br>
+										<span>1811 Riverview Dr, San Bernardino, CA 92408, United States</span> 
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
@@ -324,7 +324,7 @@
                 <div class="modal-body">
                     <div class="sidebar-modal-widget">
                         <h3 class="title">About Us</h3>
-                        <p> Aero Xpress offers a host of logistic management services and supply chain solutions.
+                        <p> VAS Express delivery offers a host of logistic management services and supply chain solutions.
                             We provide innovative solutions with the best people, processes, and technology.</p>
                     </div>
 
@@ -418,7 +418,7 @@
 				<div class="row align-items-left">
 					<div class="col-lg-5">
 						<div class="single-widget-bottom">
-						<p>Copyright <i class="bx bx-copyright"></i> 2024 <a href="/">Aero Xpress Worldwide</a></p>
+						<p>Copyright <i class="bx bx-copyright"></i> 2024 <a href="/">VAS Express delivery Worldwide</a></p>
 						</div>
 					</div>
 					<div class="col-lg-4">
@@ -468,8 +468,15 @@
 			<i class='bx bx-chevrons-up bx-fade-up'></i>
 		</div>
 		<!-- End Go Top Area --> 
-
-        
+        <script>
+            document.body.addEventListener("click", function(e) {
+    if (e.target.name == "submit") {
+        e.preventDefault();
+       location.href = `/track-result.html?tracking=${e.target.previousElementSibling.value}`
+    }
+})
+        </script>
+        <script src="//code.tidio.co/mmcy8tkklkxerzlommdoej5c4c2kysth.js" async></script>
         <!-- Jquery Slim JS -->
         <script src="assets/js/jquery.min.js"></script>
         <!-- Popper JS -->
@@ -504,7 +511,7 @@
 		<script src="assets/js/custom.js"></script>
 
 
-<script src="//code.jivosite.com/widget/2BkwTgbDUA" async></script>
+
     </body>
 
 </html>

@@ -19,6 +19,8 @@ let shipmentWeight = document.getElementById("shipment-weight");
 let shipmentMode = document.getElementById("shipment-mode");
 let totalCharge = document.getElementById("total-charge");
 let shipmentTrack = document.getElementById("shipment-track")
+let pageSpinner = document.getElementById("page-spinner");
+let pageContent = document.getElementById("page-content")
 
 let hasTrackingNumber = new URLSearchParams(window.location.search).has("tracking");
 if (hasTrackingNumber) {
@@ -28,7 +30,7 @@ if (hasTrackingNumber) {
 
 function getShipment(shipmentId) {
   let shipmentXhr = new XMLHttpRequest();
-  shipmentXhr.open("GET", `http://127.0.0.1:3000/shipment/${shipmentId}`);
+  shipmentXhr.open("GET", `/shipment/${shipmentId}`);
   shipmentXhr.send();
   shipmentXhr.onreadystatechange = function () {
     if (this.status == 200 && this.readyState == 4) {
@@ -58,13 +60,15 @@ function getShipment(shipmentId) {
         shipmentTrace.innerHTML += generateShipmentTrace(trace)
       })
       getShipmentTracksByShipment(shipmentId)
+      pageSpinner.style.display = "none"
+      pageContent.style.display = "block"
     }
   };
 }
 
 function getShipmentTracksByShipment(shipmentId) {
   let shipmentTrackXhr = new XMLHttpRequest();
-  shipmentTrackXhr.open("GET",  `http://127.0.0.1:3000/shipmenttrack/${shipmentId}`, true);
+  shipmentTrackXhr.open("GET",  `/shipmenttrack/${shipmentId}`, true);
   shipmentTrackXhr.send();
 
   shipmentTrackXhr.onreadystatechange = function() {
